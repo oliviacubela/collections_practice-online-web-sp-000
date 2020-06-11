@@ -18,16 +18,25 @@ end
 def reverse_array(array)
   array.reverse
 end
-#
-# def kesha_maker
-# end
-#
-# def find_a
-# end
-#
-# def sum_array
-# end
-#
+
+def kesha_maker(array)
+  array.each do |item|
+    item[2] = "$"
+  end
+end
+
+def find_a(array)
+  array.find_all do |word|
+    word[0] == "a"
+  end
+def sum_array(array)
+    sum = 0
+    array.each do |num|
+      sum+=num
+  end
+  sum
+end
+
 def add_s(array)
   array.collect!.with_index {|x, i| x[0..i] }
 end
