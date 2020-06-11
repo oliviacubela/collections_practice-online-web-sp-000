@@ -10,9 +10,9 @@ def sort_array_char_count(array)
   array.sort {|left, right| left.length <=> right.length}
 end
 
-# def swap_elements(array)
-#    array.sort {||}
-# end
+def swap_elements(array)
+   array.rotate!
+end
 
 def reverse_array(array)
   array.reverse
