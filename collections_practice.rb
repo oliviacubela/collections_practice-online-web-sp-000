@@ -6,10 +6,10 @@ def sort_array_desc(array)
   array.sort { |x,y| y <=> x }
 end
 
-# def sort_array_char_count
-#
-# end
-#
+def sort_array_char_count(array)
+  array.sort {|left, right| left.length <=> right.length}
+end
+
 # def swap_elements
 #
 # end
