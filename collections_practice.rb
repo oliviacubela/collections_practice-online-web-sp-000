@@ -10,9 +10,9 @@ def sort_array_char_count(array)
   array.sort {|left, right| left.length <=> right.length}
 end
 
-def swap_elements(array)
-   array.sort {||}
-end
+# def swap_elements(array)
+#    array.sort {||}
+# end
 
 def reverse_array(array)
   array.reverse
@@ -28,5 +28,5 @@ end
 # end
 #
 def add_s(array)
-  array.collect { |x| x + "s" }  
+  array.collect {|x| x + "s"}
 end
