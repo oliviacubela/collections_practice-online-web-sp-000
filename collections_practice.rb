@@ -28,7 +28,8 @@ end
 def find_a(array)
   array.find_all do |word|
     word[0] == "a"
-  end
+end
+  
 def sum_array(array)
     sum = 0
     array.each do |num|
@@ -37,6 +38,4 @@ def sum_array(array)
   sum
 end
 
-def add_s(array)
-  array.collect!.with_index {|x, i| x[0..i] }
-end
+
