@@ -16,13 +16,6 @@ def swap_elements(values)
   values.sort!
   puts values.to_s
 end
-
-
-
-puts copy.to_s
-values.sort!
-puts values.to_s
-end
 #
 # def reverse_array
 # end
