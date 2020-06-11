@@ -28,5 +28,5 @@ end
 # end
 #
 def add_s(array)
-  array.collect {|x| x + "s"}
+  a.collect!.with_index {|x, i| x[0...i] }
 end
